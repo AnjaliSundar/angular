@@ -6,5 +6,13 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = 'app';
+  title = 'angular';
+  name='Atharva....!!!';
+  num1  = 11;
+  num2 = 22;
+
+
+displayDate = function(){
+  return new Date();
+}
 }

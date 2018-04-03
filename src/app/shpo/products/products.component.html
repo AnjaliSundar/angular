@@ -1,0 +1,14 @@
+<p>
+  Products are available
+  List Of Products : {{Products}}
+</p>
+
+  <ul>
+    <li *ngFor = "let p of Products; let counter = index" (click) = giftme(counter)>
+     {{counter}} {{p}}
+
+
+    </li>
+  </ul>
+    
+  
